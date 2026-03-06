@@ -1,26 +1,52 @@
+# JDM Exercise Support System
 
-# Healthcare Data Engineering Pipeline
+## Overview
 
-This project implements a data engineering pipeline that extracts, processes, and stores healthcare datasets from multiple formats.
+This project was developed as part of a **Software Engineering assignment**.
+The goal of the system is to help children with **Juvenile Dermatomyositis (JDM)** complete their daily physiotherapy exercises through an interactive and engaging application.
+
+The system focuses on improving adherence to therapy by providing a motivating and user-friendly experience.
 
 ## Features
 
-- Extract data from CSV and JSON
-- Transform and clean datasets
-- Load processed data into SQLite database
-- Structured storage for analysis
+* Daily physiotherapy exercise tracking
+* Gamified interaction to motivate children
+* Simple and accessible interface
+* Designed with health-support usability in mind
 
 ## Technologies
 
-- Python
-- SQL
-- Data Processing
+* Python
+* Software Engineering Design Principles
+* Interactive Application Development
+
+## Project Structure
+
+jdm-exercise-support-system/
+│
+├── assets/
+├── exercises/
+├── main.py
+├── requirements.txt
+└── README.md
 
 ## How to Run
 
-```bash
+Clone the repository:
+
+git clone https://github.com/yourusername/jdm-exercise-support-system.git
+
+Install dependencies:
+
 pip install -r requirements.txt
-python extract.py
-python transform.py
-python load.py
-```
+
+Run the application:
+
+python main.py
+
+## Learning Goals
+
+* Applying software engineering principles
+* Designing health-support systems
+* Structuring maintainable software projects
+* Building user-centered applications
